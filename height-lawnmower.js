@@ -18,7 +18,7 @@ function draw() {
     h = h + 3;
   }
   
-  if (h > 30) {
+  if (h >= 100) {
     h = random(10);
     x = x + 3;
   }
